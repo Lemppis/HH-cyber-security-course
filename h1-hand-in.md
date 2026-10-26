@@ -1,10 +1,10 @@
-# h1 CyberScience homework
+# h1 CyberScience homework[^1]
 
 ## a) Science hunt
 
-I chose to review an article titled: The Evolution of Phishing and Future Directions: A Review[^1]. The publication that it has been released in has a JUFO ID 86562 and is rated at level 1. The article already has 27 citations as of the date that I reviewed it (25th of October 2026). I think phishing emails, phone calls etc. are things that we all know about, either through personal experiences or have heard through friends and family. That is what motivated me to look up review articles on the topic.
+I chose to review an article titled: The Evolution of Phishing and Future Directions: A Review[^2]. The publication that it has been released in has a JUFO ID 86562 and is rated at level 1. The article already has 27 citations as of the date that I reviewed it (25th of October 2026). I think phishing emails, phone calls etc. are things that we all know about, either through personal experiences or have heard through friends and family. That is what motivated me to look up review articles on the topic.
 
-## b) Review of the review[^1]
+## b) Review of the review[^2]
 
   * _What are the key areas being researched?_
     
@@ -52,5 +52,5 @@ I chose to review an article titled: The Evolution of Phishing and Future Direct
 
 
 ## References
-[^1]: Osamor, J., Ashawa, M., Shahrabi, A., Phillip, A. and Iwend, C., 2025, March. The evolution of phishing and future directions: A review. In International Conference on Cyber Warfare and Security (pp. 361-368). Academic Conferences International Limited. Available at: https://doi.org/10.34190/iccws.20.1.3366 (Accessed: 25 October 2026).
-
+[^2]: Osamor, J., Ashawa, M., Shahrabi, A., Phillip, A. and Iwend, C., 2025, March. The evolution of phishing and future directions: A review. In International Conference on Cyber Warfare and Security (pp. 361-368). Academic Conferences International Limited. Available at: https://doi.org/10.34190/iccws.20.1.3366 (Accessed: 25 October 2026).
+[^1]: Karvinen, T. (2026) Cyber Security - 2026 late autumn. Available at: https://terokarvinen.com/cyber-security/ (Accessed: 26 October 2026).
