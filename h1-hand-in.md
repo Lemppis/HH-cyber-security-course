@@ -2,7 +2,7 @@
 
 ## a) Science hunt
 
-I chose to review an article titled: The Evolution of Phishing and Future Directions: A Review[^1]. The publication that it has been released in has a JUFO ID 86562 and is rated at level 1. The article already has 27 citation as of the date that I reviewed it (25th of October 2026). I think phishing emails, phone calls etc. are things that we all know about, either through personal experiences or have heard through friends and family. That is what motivated me to look up review articles on the topic.
+I chose to review an article titled: The Evolution of Phishing and Future Directions: A Review[^1]. The publication that it has been released in has a JUFO ID 86562 and is rated at level 1. The article already has 27 citations as of the date that I reviewed it (25th of October 2026). I think phishing emails, phone calls etc. are things that we all know about, either through personal experiences or have heard through friends and family. That is what motivated me to look up review articles on the topic.
 
 ## b) Review of the review[^1]
 
@@ -12,7 +12,7 @@ I chose to review an article titled: The Evolution of Phishing and Future Direct
 
   * _What's widely agreed upon?_
 
-    Phishing solutions are becoming increasingly more sophisticated. The only way for organizations and individuals to fight against these new methods is to use the same kind of        countermeasurements and defences that aid the attackers in crafting the phishing attacks. At the organization level, these include AI-powered detection-systems and more             advanced email-authntication mechanisms. At the individual level this means using multifactor authentication methods and overall vigilance when using services and opening           links. The human element cannot be overstated. More user education and training has to be a part of the organization's strategy, on top of using multifactorial countermeasure       tools as part of the defence infrastructure.
+    Phishing solutions are becoming increasingly more sophisticated. The only way for organizations and individuals to fight against these new methods is to use the same kind of        countermeasurements and defences that aid the attackers in crafting the phishing attacks. At the organization level, these include AI-powered detection-systems and more             advanced email-authentication mechanisms. At the individual level this means using multifactor authentication methods and overall vigilance when using services and opening          links. The human element cannot be overstated. More user education and training has to be a part of the organization's strategy, on top of using multifactorial countermeasure       tools as part of the defence infrastructure.
     
   * _What are the open questions?_
 
@@ -22,7 +22,7 @@ I chose to review an article titled: The Evolution of Phishing and Future Direct
 
   * _Company_
 
-    A major local bank with online services
+    A major local bank
      
   * _Crown jewels_
 
