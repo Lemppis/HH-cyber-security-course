@@ -42,6 +42,10 @@ I read and summarized a blogpost from Traficom[^3]. The main talking points are 
 
 I think the Traficom blog post[^3] highlighted the current landscape of phishing attacks well. They are the norm and are relevant in many different attack types. This is also evident from the the review article I reviewed in my previous post [previous documentation](./h1-hand-in.md). Phishing attacks are becoming increasingly more sophisticated and harder to detect, as evident from the review article [^4]. Everyone and all organizations are susceptible to these kinds of attacks and better defences and more training is required.
 
+## d) Download Debian
+
+Downloaded the referenced[^2] ISO image (debian-live-13.7.0-amd64-xfce).
+
 ## References
 [^1]: Hyppönen, M. and Tuominen, T. 29.9.2026. Kyberfyysinen tilannekuva, vieraana Hannes Huotari | 0x46', Herrasmieshakkerit. Spotify. Available at: https://open.spotify.com/episode/30fGuzJcZoScKyxWdbpVZT. Accessed: 2 November 2026.
 
