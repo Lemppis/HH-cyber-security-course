@@ -18,7 +18,9 @@ I listened and summarized an episode of Herrasmieshakkerit[^1]. The main talking
     
   * Hosts ask their guest what is actually meant by cyber-physical security. Huotari condenses the matter to the fact that nowadays basically all security solutions are connected to the internet. This makes all physical safety features inherently susceptible to cyber-attacks and need to be secured accordingly. He sees that this affects the overall attack surface area significantly – it is more trivial to gain access to physical locations through the use of internet (e.g., access management).
     
-  * The guest talks about his company Louhe, which specializes in security solutions, especially access control in physical locations. These include how security solutions should be managed and what kind of factors need to be taken into account. They especially try to build intelligence into their solutions through the use data analytics, sensory data and audit trails, for example. 
+  * The guest talks about his company Louhe, which specializes in security solutions, especially access control in physical locations. These include how security solutions should be managed and what kind of factors need to be taken into account. They especially try to build intelligence into their solutions through the use data analytics, sensory data and audit trails, for example.
+
+  * *Own thinking*: It has always worried me that everything from your fridge to your car comes with an internet connection. Is that just how things go (developments keep developing)? No one stopped to think that this might be a bad thing from a security perspective? Or is the security usually just an afterthought? It is something that is now commercialized, since the cyber-physical risks are becoming the new norm.
 
 
 ## b) Blog
@@ -37,10 +39,12 @@ I read and summarized a blogpost from Traficom[^3]. The main talking points are 
    
   * Overall, Traficom highlights the importance of cybersecurity related measures in organizations, and that citizens stay vigilant.
 
+  * *Own thinking*: How can a normal person really safely operate in the current cyber-climate? I'm not sure if I'm more concerned for the elderly or for the upcoming generations.
+
 
 ## c) Science that
 
-I think the Traficom blog post[^3] highlighted the current landscape of phishing attacks well. They are the norm and are relevant in many different attack types. This is also evident from the the review article I reviewed in my previous post [previous documentation](./h1-hand-in.md). Phishing attacks are becoming increasingly more sophisticated and harder to detect, as evident from the review article [^4]. Everyone and all organizations are susceptible to these kinds of attacks and better defences and more training is required.
+I think the Traficom blog post[^3] highlighted the current landscape of phishing attacks well. They are the norm and are relevant in many different attack types. This is also evident from the the review article I reviewed in my previous post [previous documentation](./h1-hand-in.md). Phishing attacks are becoming increasingly more sophisticated and harder to detect, as evident from the review article [^4]. Everyone and all organizations are susceptible to these kinds of attacks and better defences and more training is required. Is any amount of training acctually enough and what kind of risks are we willing to accept? 
 
 ## d) Download Debian
 
