@@ -9,6 +9,7 @@
     *	Downloading the image: Acquiring the Debian live ISO image and understanding basic concepts like ISOs and Linux distributions.
     *	VM creation: Configuring the virtual machine's settings in VirtualBox (allocating RAM, CPUs etc., and setting up the virtual hard disk).
     *	OS Installation: Booting into the live environment, running the Calamares installer to complete the real installation, rebooting, and performing initial system updates (apt-get update and upgrade).
+    *	**Question:** Is it safe to enable clipboard copying bidirectionally or even one-way (e.g. host->VM)?
 
   * Karvinen 2020: Command Line Basics Revisited[^2]
     * Navigation: Moving around the filesystem (pwd, ls, cd, less).
@@ -17,13 +18,15 @@
     * Help & Efficiency: Using manual pages (man) and autocomplete features (Tab key, command history).
     * System: Understanding key Linux directories (/home, /etc, /var/log).
     * Package Management: Installing, searching for, and removing software safely using administrator privileges (sudo apt-get).
+    * **Question**: How critical is it to run the update and upgrade commands immediately after setting up a new distribution?
 
   * Karvinen 2022: Cracking Passwords with Hashcat[^3]
     * Setting up: Installing hashcat, hashid, and downloading a standard wordlist (rockyou.txt).
     * Hash Identification: Using hashid to figure out the type of cryptographic hash and its corresponding Hashcat mode (e.g., -m 0 for MD5).
     * Cracking the Hash: Running Hashcat against the hash using the dictionary file to brute-force a match (hashcat -m 0 [hash] rockyou.txt -o solved).
     * Making it better: Checking the results, viewing output status, and understanding how to leverage hardware for faster cracking speeds.
-    * Next steps: Try writing your own dictionaries, e.g. CFT (capture the Flag -game). 
+    * Next steps: Try writing your own dictionaries, e.g. CFT (capture the Flag -game).
+    * **Question**: How useful and safe are passwords in general, can you assume that all passwords are unsafe?
 
 
  ## a) Reserve your presentation
