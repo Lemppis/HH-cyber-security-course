@@ -6,7 +6,7 @@
   * It is standardized and mature platform that renders all information in a similar format for easy reading
   * It can be moved between a variety of platforms without an issue and its compatibility makes is future-proof
   
-    Info gathered from RSS app guides[^4]
+    *Info gathered from RSS app guides[^4]*
 
 ## y) Supreme court of Finland, case Osuuspankkikeskus [^2]
   * In November 1998, a 17-year-old (named A) used a scanning program to systematically scan all IP addresses on the internet-facing network of Osuuspankkikeskus-OPK
