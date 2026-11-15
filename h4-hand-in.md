@@ -2,13 +2,13 @@
 
 ## x) Why would you want to use a feed reader (and RSS/Atom)? 
   *	It is systematic and stabile way to organize news feeds from various sources
-  * It is free of personalised content algorithms and post filtering that most media platforms utilize in their services
+  * It is free of personalized content algorithms and post filtering that most media platforms utilize in their services
   * It is standardized and mature platform that renders all information in a similar format for easy reading
   * It can be moved between a variety of platforms without an issue and its compatibility makes is future-proof
   
     *Info gathered from RSS app guides[^4]*
 
-## y) Supreme court of Finland, case Osuuspankkikeskus [^2]
+## y) Supreme court of Finland, case Osuuspankkikeskus[^2]
   * In November 1998, a 17-year-old (named A) used a scanning program to systematically scan all IP addresses on the internet-facing network of Osuuspankkikeskus-OPK
   * A argued that port scanning was just to check for open services and does not forcibly "break" a security mechanism. The Supreme Court rejected this, ruling that systematic vulnerability/port scanning is designed to map weaknesses that enable unauthorized entry. 
   * Using such port-scanning tools against third-party networks without authorization crosses the threshold into an attempted data break-in even before an exploit is launched or a firewall is penetrated.
