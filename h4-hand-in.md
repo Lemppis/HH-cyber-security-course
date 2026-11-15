@@ -24,7 +24,7 @@
     [Screenshot of Feedbro RSS feed on full screen]
     <img width="1713" height="909" alt="Fullview of Feedbro RSS feed" src="https://github.com/user-attachments/assets/dcc437b8-d338-4128-b1f2-bc6e63b49f8d" />
 
-    There are a couple of different view modes in the extension. One is the above screenshot, other is straight from the browser-extension button. This shouws the latest news from selected sources based on upload time.
+    There are a couple of different view modes in the extension. One is the above screenshot, other is straight from the browser-extension button. This shows the latest news from selected sources based on upload time.
 
 ## b) Add the feed for Krebs. https://krebsonsecurity.com/feed/
   * Krebs added
