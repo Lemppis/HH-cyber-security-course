@@ -32,12 +32,12 @@ When I log in to my work Windows computer with a smart card, I am using Windows 
 
 
 ## b) Encrypt and decrypt a message
-I chose to install the gpg-software for Windows (gpg4win) from their website (https://www.gpg4win.org/download.html). I chose to skip the use of Linux VM for more simplified approach (for me). In general, I followed the same process as described by Karvinen in his Linux guide (link), but without the need for command prompt. I chose to use Kleopatra, which acts as a graphical interface for the process. It is installed during the gpg4win installation (checked by default).
+I chose to install the gpg-software for Windows (gpg4win) from their website (https://www.gpg4win.org/download.html). I chose to skip the use of Linux VM for more simplified approach (for me). In general, I followed the same process as described by Karvinen in his Linux guide[^6], but without the need for command prompt. I chose to use Kleopatra, which acts as a graphical interface for the process. It is installed during the gpg4win installation (checked by default).
 
 [Screenshot of gpg4win installation with Kleopatra]
 <img width="868" height="675" alt="gpg4win installation" src="https://github.com/user-attachments/assets/aa21b1a2-6769-4be2-bae4-f0f484efc792" />
 
-I used this guide (link) to help with the Kleopatra software. I remembered that I used this software in my previous studies, but with time I had seemingly forgotten everything – time to learn again!
+I used this guide[^3] to help with the Kleopatra software. I remembered that I used this software in my previous studies, but with time I had seemingly forgotten everything – time to learn again!
 
 ### In this example I used the classic Alice and Bob -pair. 
 1. I opened Kleopatra and clicked File → New OpenPGP Key Pair. I did this for Alice and Bob. I used generic a “[firstname]@example.com” as the email address. I also protected the keys with a passphrase.
