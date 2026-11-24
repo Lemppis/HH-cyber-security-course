@@ -108,7 +108,7 @@ The different desktop versions of the app work in similar fashion, no matter wha
 [Screenshot of Nordpass browser extension]
 <img width="1914" height="591" alt="browser extension interface" src="https://github.com/user-attachments/assets/f8be90d8-6e6c-4d12-8100-54097fcb8336" />
 
-If you are using the browser extension or the app on your phone, Nordpass automatically suggests adding login-info to the vault, so you don’t need to add them separately. If you just use the dsktop app, you have to manually copy login info from the app.
+If you are using the browser extension or the app on your phone, Nordpass automatically suggests adding login-info to the vault, so you don’t need to add them separately. If you just use the desktop app, you have to manually copy login info from the app.
 
 ### What kind of attacks take advantage of people not using password managers?
 
