@@ -68,10 +68,10 @@ I used this guide[^3] to help with the Kleopatra software. I remembered that I u
     [Screenshot of decryption and verification]
     <img width="2322" height="1499" alt="Decryption and verification" src="https://github.com/user-attachments/assets/39aca812-aeca-4b10-abd8-ea3e30245ead" />
 
-### How different parties use different keys at different stages of operation
+### How different parties use different keys at different stages of operation[^5]
 
 1.	Key Generation (Alice & Bob): Each generates a Public Key + Private (Secret) Key. Creates each user's cryptographic identity. Private keys stay secret (protected by a passphrase, because I chose to make one); public keys are shared.
-2.	Key Exchange & Trust (Alice & Bob): Alice's Private Key signs Bob's Public Key (and vice versa). After verifying fingerprints out-of-band, signing each other's public keys establishes trust that the key belongs to the right person.
+2.	Key Exchange & Trust (Alice & Bob): Alice's Private Key signs Bob's Public Key (and vice versa). After verifying fingerprints (40-character hex code) out-of-band (i.e. phone call, meeting in-person, other secure messaging platform), signing each other's public keys establishes trust that the key belongs to the right person.
 3.	Encryption & Signing (Alice (Sender)): One-time Symmetric Session Key, Bob's Public Key, and Alice's Private Key. Under the hood, GPG encrypts the message with a fast random symmetric session key, encrypts that session key with Bob's public key (confidentiality), and signs the message with Alice's private key (authenticity & integrity).
 4.	Decryption & Verification (Bob (Recipient)) Bob's Private Key, the Symmetric Session Key, and Alice's Public Key. GPG uses Bob's private key to unlock the symmetric session key and decrypt the message, then uses Alice's public key to verify her signature.
 
@@ -84,6 +84,41 @@ The biggest advantage of PGP seems to be that the algorithm for encryption is st
 It is also worth noting that only the message content that is encrypted is “anonymous”. The services used to send the encrypted messages are still traceable and the subject line isn’t encrypted either. Also worth pointing out is that both the sender and receiver need to be using the same version of the software. Otherwise, the communication will not work.
 
 ## c) Password management
+
+I have been using NordPass (nordpass.com) password manager for multiple years. It is available for most systems: Windows, MacOS, Linux, Android, iOS. I’ll be honest: I didn’t do a lot of research before choosing this password manager. I was already familiar with Nord Security’s software solutions and kind of accepted it as is.
+
+It is also available for free, which begs the question – how do they make money? Usually, you are the product. Of course, paying for a service doesn’t guarantee that you aren’t treated the same way. However, I chose a plan that does cost a bit but also gives access to all the features. Below you can se a screenshot straight from their website (https://nordpass.com/plans/. taken on 23.11.2026). They are clearly quite aggressive with sales as well. That’s not necessarily a good thing either...
+
+[Screenshot of Nordpass deals / 23.11.2026]
+<img width="1911" height="1207" alt="Nordpass versions" src="https://github.com/user-attachments/assets/ca278639-cb32-4f21-bbca-b88641d2fb63" />
+
+
+### Using Nordpass
+
+Nordpass is available as a standalone software or as a browser extension. I use both solutions. I have the desktop application on my computer and the Firefox extension in browser. Obviously, I have the application installed on my phone as well. It recognizes most login screens that you might come across. There might be some setting up beforehand though. At least on Android, you must go into the settings and choose it as the main password manager. Otherwise, most logins will try to find the passwords from Google’s own password manager.
+
+On firefox, you can type "about:addons" in the address bar and it takes you directly to the page where you can search for addons. Just type "nordpass" in the search and select the one shown below:
+
+[Screenshot Nordpass browser extension installation]
+<img width="1914" height="1653" alt="Firefox extension" src="https://github.com/user-attachments/assets/61802a5d-a782-47e7-b799-f02aafb4f21d" />
+
+
+The different desktop versions of the app work in similar fashion, no matter what system you are running or what browser extension you have chosen. You can add new entries manually from the app (upper right-hand corner).
+
+[Screenshot of Nordpass browser extension]
+<img width="1914" height="591" alt="browser extension interface" src="https://github.com/user-attachments/assets/f8be90d8-6e6c-4d12-8100-54097fcb8336" />
+
+If you are using the browser extension or the app on your phone, Nordpass automatically suggests adding login-info to the vault, so you don’t need to add them separately. If you just use the dsktop app, you have to manually copy login info from the app.
+
+### What kind of attacks take advantage of people not using password managers?
+
+A few come to mind regarding the protection a password manager provides.
+
+* Brute-force attacks: People usually have short and easily solvable (for computers) passwords.
+* Phishing-attempts: Password managers usually have built-in features to prevent automatic fill on fake websites.
+* Repeating passwords: If attacker gets a hold of one password, they usually have access to multiple services at once. Password managers make it easy to have unique passwords on every website.
+* Nordpass also checks online for any leaked credentials and data breaches to services and compares them to your saved websites; if there is a match, it will let you know and provides steps to secure your account.
+
 
 ## References
 [^1]: Chokhani, S., Ford, W., Sabett, R., Merrill, C. & Wu, S. November 2003. RFC 3647: Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework. RFC Editor. URL: https://www.rfc-editor.org/info/rfc3647/. Accessed: 23 November 2026.
